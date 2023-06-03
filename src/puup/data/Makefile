@@ -8,4 +8,4 @@ p.py: wp.py
 
 .PHONY: clean
 clean:
-	rm -f {a,n,r,s,v}.py
+	rm -f {a,n,p,r,s,v}.py

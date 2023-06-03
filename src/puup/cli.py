@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
+import sys
+
 import click
 import confuse
-import sys
 
 from puup.render import render
 from puup.dump import dump

@@ -7,7 +7,6 @@ import puup.words
 
 @functools.lru_cache
 def estimate(template):
-
     '''estimate template's entropy'''
 
     e, n = 0, None
