@@ -1,6 +1,6 @@
 '''Potentially Universally Unique Phrase generator'''
 
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 
 from puup.render import render
 

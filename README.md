@@ -13,7 +13,19 @@ pip install puup
 ```python
 >>> import puup
 >>> puup.puup()
-('sideway', 'effectually', 'incessant', 'toiler')
+('crookedly', 'genetically', 'planar', 'tobramycin')
+>>> puup.puup('an')
+('six', 'filthiness')
+>>> puup.puup('van')
+('zest', 'insomniac', 'lifestyle')
+>>> puup.puup('pan')
+('throughout', 'indigent', 'suckerfish')
+>>> puup.puup('[if][we]v')
+('if', 'we', 'repeat')
+>>> puup.puup('[we][can]v[and]v')
+('we', 'can', 'carbonate', 'and', 'muddle')
+>>> puup.puup('{anprsv}[is][a][very][random][word]')
+('beanstalk', 'is', 'a', 'very', 'random', 'word')
 ```
 
 ### Shell
